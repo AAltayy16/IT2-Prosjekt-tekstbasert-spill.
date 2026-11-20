@@ -1,4 +1,3 @@
-
 import random    # Gjør at vi kan bruke tilfeldige tall i spillet
 
 class Character:    # Lager en hovedklasse for alle karakterer
@@ -24,9 +23,8 @@ class Weapon:  # Lager en klasse for våpen
     def __init__(self, weapon_type, damage):  # Tar imot våpentype og skade
         self.weapon_type = weapon_type  # Lagrer navnet på våpenet
         self.damage = damage  # Lagrer hvor mye skade våpenet gjør  
-
-
-class Player(Character):  # Player arver fra Character
+    
+    class Player(Character):  # Player arver fra Character
 
     def __init__(self, name, weapon):  # Konstruktør for spilleren
         super().__init__(name, 100)  # Bruker Character sin konstruktør og gir 100 HP
@@ -69,6 +67,16 @@ class Enemy(Character):  # Enemy arver fra Character
         player.take_damage(damage)  # Trekker skade fra spilleren
         print(f"{self.get_name()} gjør {damage} skade!")  # Viser fiendens skade
 
+
+
+
+
+Delen til Zin Zin ^
+
+
+
+
+    
 
 class Game:  # Hovedklassen som styrer hele spillet
 
@@ -183,3 +191,6 @@ class Game:  # Hovedklassen som styrer hele spillet
 
 game = Game()  # Lager et Game-objekt
 game.start()  # Starter spillet
+
+
+Delen til Arda^
