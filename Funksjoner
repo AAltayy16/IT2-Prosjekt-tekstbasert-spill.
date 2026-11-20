@@ -3,3 +3,13 @@ Added Character class
 Added Player and Enemy classes
 
 Added weapon selection
+
+Added attack, block and parry system
+
+
+
+Added enemies and floor progression
+
+
+
+Fixed health system bug
