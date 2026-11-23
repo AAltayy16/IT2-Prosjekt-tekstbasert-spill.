@@ -69,6 +69,8 @@ class Enemy(Character):  # Enemy arver fra Character
         print(f"{self.get_name()} gjør {damage} skade!")  # Viser fiendens skade
 
 
+Delt kode
+
 class Game:  # Hovedklassen som styrer hele spillet
 
     def __init__(self):  # Konstruktør for Game
